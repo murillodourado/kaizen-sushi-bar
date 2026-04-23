@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "NotoSerif";
+    src: url(../fonts/NotoSerif-VariableFont_wdth\,wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+  --primary-color: #8f0101;
+  --secondary--color: #b81515;
+
+  --background-primary-color: #0D0D0D;
+  --background-secondary-color: #1A1A1A;
+  --background-tertiary-color: #8f0101;
+
+  --text-color: #ffffff;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
+}
+
+/* CSS RESET */
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "NotoSerif";
+    color: var(--text-color);
+}
