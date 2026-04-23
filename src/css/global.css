@@ -1,3 +1,16 @@
+:root {
+  --primary-color: #8f0101;
+  --secondary--color: #b81515;
+
+  --background-primary-color: #0D0D0D;
+  --background-secondary-color: #1A1A1A;
+  --background-tertiary-color: #8f0101;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
+}
+
 /* CSS RESET */
 body,
 img,
