@@ -13,6 +13,8 @@
   --background-secondary-color: #1A1A1A;
   --background-tertiary-color: #8f0101;
 
+  --text-color: #ffffff;
+
   --title-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 500;
@@ -33,4 +35,9 @@ button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+    font-family: "NotoSerif";
+    color: var(--text-color);
 }
