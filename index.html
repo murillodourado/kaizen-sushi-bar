@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <link rel="stylesheet" href="./src/styles/global.css" />
+    <title>Kaizen Sushi Bar</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <i class="fa-solid fa-torii-gate" id="nav_logo"></i>
+        <h1>
+          Kaizen
+          <span>Sushi Bar</span>
+        </h1>
+
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Reviews</a>
+          </li>
+        </ul>
+
+        <button class="btn-default">Order Here</button>
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Reviews</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">
+            Your
+            <span>japanese</span>
+            experience starts here
+          </h1>
+
+          <p class="description">
+            Experience the perfect harmony between tradition and flavor at
+            Kaizen Sushi Bar. From fresh, handcrafted sushi to authentic
+            Japanese specialties, each dish is prepared to transform simple
+            moments into unforgettable experiences.
+          </p>
+
+          <div id="cta_buttons">
+            <a href="#" class="btn-default"> See Menu </a>
+
+            <a href="tel:+555555555555" id="phone_button">
+              <button class="btn-default">
+                <i class="fa-solid fa-phone"></i>
+                (51) 94983-9589
+              </button>
+            </a>
+          </div>
+
+          <div class="social-media-buttons">
+            <a href="#">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+
+        <div id="banner">
+          <img src="./src/images/hero-image.png" alt="" />
+        </div>
+      </section>
+
+      <section id="menu">
+        <div id="menu_header">
+          <h2>Our <span>Menu</span></h2>
+          <p>Handcrafted with fresh ingredients, every dish tells a story</p>
+        </div>
+
+        <div id="menu_grid">
+          <div class="menu_card">
+            <div class="menu_card_image">
+              <img src="./src/images/dish1.jpg" alt="Dragon Roll" />
+              <span class="menu_badge">Popular</span>
+            </div>
+            <div class="menu_card_body">
+              <h3>Temaki</h3>
+              <p>
+                Fresh ingredients wrapped in crispy seaweed and perfectly
+                seasoned rice, delivering a hand-crafted burst of flavor in
+                every bite.
+              </p>
+              <div class="menu_card_stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(238)</span>
+              </div>
+              <div class="menu_card_footer">
+                <span class="menu_price">$12.90</span>
+                <button class="btn-default menu_buy_btn">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  Order
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu_card">
+            <div class="menu_card_image">
+              <img src="./src/images/dish2.jpg" alt="Salmon Sashimi" />
+            </div>
+            <div class="menu_card_body">
+              <h3>Nigiri</h3>
+              <p>
+                Delicate slices of fresh salmon over soft sushi rice, creating a
+                simple yet refined Japanese classic.
+              </p>
+              <div class="menu_card_stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <span>(104)</span>
+              </div>
+              <div class="menu_card_footer">
+                <span class="menu_price">$9.90</span>
+                <button class="btn-default menu_buy_btn">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  Order
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu_card">
+            <div class="menu_card_image">
+              <img src="./src/images/dish3.jpg" alt="Spicy Tuna Tartare" />
+              <span class="menu_badge menu_badge_new">New</span>
+            </div>
+            <div class="menu_card_body">
+              <h3>Onigiri</h3>
+              <p>
+                Traditional Japanese rice balls wrapped in seaweed, filled with
+                rich and comforting flavors perfect for any moment.
+              </p>
+              <div class="menu_card_stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <span>(77)</span>
+              </div>
+              <div class="menu_card_footer">
+                <span class="menu_price">$7.50</span>
+                <button class="btn-default menu_buy_btn">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  Order
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu_card">
+            <div class="menu_card_image">
+              <img src="./src/images/dish4.jpg" alt="Miso Black Cod" />
+            </div>
+            <div class="menu_card_body">
+              <h3>Hot Roll</h3>
+              <p>
+                Crispy on the outside, creamy on the inside — a golden fried
+                sushi roll finished with savory sauce and crunchy sesame seeds.
+              </p>
+              <div class="menu_card_stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(191)</span>
+              </div>
+              <div class="menu_card_footer">
+                <span class="menu_price">$14.50S</span>
+                <button class="btn-default menu_buy_btn">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  Order
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <div id="testimonials_header">
+          <h2>What our <span>guests</span> say</h2>
+          <p>Real experiences from people who love our food</p>
+        </div>
+
+        <div id="testimonials_grid">
+          <div id="chef_card">
+            <div id="chef_image_wrapper">
+              <img src="./src/images/our-chef.png" alt="Our Head Chef" />
+              <div id="chef_badge">
+                <i class="fa-solid fa-crown"></i>
+                Head Chef
+              </div>
+            </div>
+            <h3>Hiroshi Tanaka</h3>
+            <p>
+              15 years crafting authentic Japanese flavors with passion and
+              precision.
+            </p>
+            <div id="chef_tags">
+              <span>Sushi Master</span>
+              <span>Omakase</span>
+              <span>Traditional</span>
+            </div>
+          </div>
+
+          <div id="reviews_column">
+            <div class="review_card">
+              <div class="review_header">
+                <div class="review_avatar">EM</div>
+                <div class="review_info">
+                  <h4>Emily Moore</h4>
+                  <span>2 days ago</span>
+                </div>
+                <div class="review_stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <p class="review_text">
+                Chef Hiroshi's omakase was a transcendent experience. Every
+                piece was a work of art — the balance of flavors was unlike
+                anything I've tasted before. Kaizen has set a new standard for
+                Japanese cuisine in this city.
+              </p>
+              <div class="review_dish">
+                <i class="fa-solid fa-utensils"></i>
+                Temaki
+              </div>
+            </div>
+
+            <div class="review_card">
+              <div class="review_header">
+                <div class="review_avatar">JR</div>
+                <div class="review_info">
+                  <h4>James Rivera</h4>
+                  <span>1 week ago</span>
+                </div>
+                <div class="review_stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+              <p class="review_text">
+                I came in skeptical but left completely converted. The Hot Roll
+                alone is worth the trip. You can tell Chef Hiroshi puts real
+                soul into every dish — the freshness and technique are on
+                another level entirely.
+              </p>
+              <div class="review_dish">
+                <i class="fa-solid fa-utensils"></i>
+                Hot Roll & Onigiri
+              </div>
+            </div>
+
+            <button class="btn-default" id="more_reviews_btn">
+              <i class="fa-regular fa-comments"></i>
+              See all reviews
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <div id="footer_grid">
+          <div id="footer_brand">
+            <div id="footer_logo">
+              <i class="fa-solid fa-torii-gate"></i>
+              <h2>Kaizen <span>Sushi Bar</span></h2>
+            </div>
+            <p>
+              Experience the perfect harmony between tradition and flavor. Every
+              dish crafted with passion, served with purpose.
+            </p>
+            <div class="social-media-buttons">
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+          </div>
+
+          <div id="footer_info">
+            <div class="footer_info_block">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h4>Address</h4>
+                <p>Rua Galvão Bueno, 512</p>
+                <p>Liberdade, São Paulo — SP</p>
+                <p>CEP 01506-000</p>
+              </div>
+            </div>
+
+            <div class="footer_info_block">
+              <i class="fa-solid fa-clock"></i>
+              <div>
+                <h4>Opening Hours</h4>
+                <p>Mon – Thu: 12h – 22h</p>
+                <p>Fri – Sat: 12h – 23h30</p>
+                <p>Sunday: 12h – 21h</p>
+              </div>
+            </div>
+
+            <div class="footer_info_block">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <h4>Contact</h4>
+                <p>(11) 3456-7890</p>
+                <p>contato@kaizensushi.com.br</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="footer_bottom">
+          <p>© 2025 Kaizen Sushi Bar. All rights reserved.</p>
+          <p>Rua Galvão Bueno, Liberdade — São Paulo, SP</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
