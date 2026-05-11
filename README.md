@@ -6,6 +6,7 @@ A responsive landing page for a Japanese restaurant built with HTML, CSS and jQu
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
 
+🔗 **Live demo:** [kaizen-sushi-bar](https://murillodourado.github.io/kaizen-sushi-bar/)
 ---
 
 ## 📋 About
